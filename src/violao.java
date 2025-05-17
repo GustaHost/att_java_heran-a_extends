@@ -12,15 +12,18 @@ public class violao extends instrumentoCorda implements afinador{
         System.out.println("O violão está afinado!!");
     }
 
-    @Override
-    public void tocar() {
-        System.out.println("tocando Violão: tum tum tum");
+    public void tocarAcordes() {
+        System.out.println("tocando acordes!!");
     }
 
+    
+
     @Override
-    public void mudarTom() {
+    public void mudarTom(String string) {
         
     }
+
+    
     
     
 }

@@ -8,6 +8,7 @@ public class trompete extends instrumentoSopro implements afinador{
     @Override
     public void tocar() {
         System.out.println("tocando trompete: sem de trompete tromp tromp");
+        
     }
 
     @Override
@@ -16,8 +17,11 @@ public class trompete extends instrumentoSopro implements afinador{
     }
 
     @Override
-    public void mudarTom() {
-
-        System.out.println("Mudando tom do Trompete!!");
+    public void mudarTom(String string) {
+        
     }
+
+    
+
+    
 }

@@ -8,18 +8,22 @@ public class guitarra extends instrumentoCorda implements afinador{
     @Override
     public void afinar() {
         System.out.println("A guitarra está afinada!!");
+        
     }
 
 
     @Override
     public void tocar() {
         System.out.println("tocando Guitarra: rum bat dum");
+        
     }
 
     @Override
-    public void mudarTom() {
+    public void mudarTom(String string) {
         
     }
+
+   
 
     
     

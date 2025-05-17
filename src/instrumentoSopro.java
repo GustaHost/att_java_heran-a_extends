@@ -6,10 +6,5 @@ public abstract class instrumentoSopro extends instrumento{
         this.tipoMaterial = tipoMaterial;
         
     }
-
-    
-
-    
-
     
 }

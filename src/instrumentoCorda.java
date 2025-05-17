@@ -6,6 +6,12 @@ public abstract class instrumentoCorda extends instrumento{
         this.tipoCorda = tipoCorda;
         
     }
+    
+    @Override
+    public void tocar() {
+        System.out.println("tocando um instrumento ====> rsrs rudum rsrsr");
+        
+    }
 
     
     

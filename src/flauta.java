@@ -9,6 +9,7 @@ public class flauta extends instrumentoSopro implements afinador{
     @Override
     public void tocar() {
         System.out.println("tocando flauta: fiu fiu fiu");
+        
     }
     
 
@@ -19,10 +20,12 @@ public class flauta extends instrumentoSopro implements afinador{
 
 
     @Override
-    public void mudarTom() {
-        System.out.println("Mudando tom da flauta!!");
+    public void mudarTom(String string) {
+        
     }
 
+
+    
     
     
 }
